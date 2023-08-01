@@ -1,6 +1,6 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0549ef54-5efa-487b-b98c-6adf7ce549f2/deploy-status)](https://app.netlify.com/sites/landingpendaftaran/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6d15ac66-cf7f-4daa-a7a7-7277ada0e870/deploy-status)](https://app.netlify.com/sites/surveyrsp/deploys)
 
-# RSUP Persahabatan Landing Pendaftaran
+# RSUP Persahabatan Landing Survey Online
 
 Landing Pendaftaran RSUP Persahabatan
 
@@ -8,13 +8,13 @@ Landing Pendaftaran RSUP Persahabatan
 
 ![demo site screenshot malah hari](./screenshoot2.png)
 
-[View Live Demo](https://pendaftaran.rsuppersahabatan.co.id/)
+[View Live Demo](https://survey.rsuppersahabatan.co.id/)
 
 ## Local Install
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/rsuppersahabatan/landingpendaftaran
+git clone https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id
 
 # 2. Navigate into repository
 cd landingpendaftaran
