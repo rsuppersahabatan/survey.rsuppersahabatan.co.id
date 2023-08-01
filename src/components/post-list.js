@@ -1,11 +1,14 @@
 import React from "react";
 import styled from "styled-components";
+import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
 const PostList = ({ posts }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
     const { title, date, description, tujuan, social_image } = frontmatter;
     const { slug } = fields;
-    const socialImage = social_image ? frontmatter.social_image.absolutePath : "";
+    const socialImage = social_image ? getImage(frontmatter.social_image) : "";
+
+    console.log(socialImage)
 
     return (
       <PostListItem
@@ -27,11 +30,6 @@ const PostList = ({ posts }) => {
 
 export default PostList;
 
-const MyIcon = styled.img`
-  width: 100%;
-`;
-
-
 const PostListItem = ({
   title,
   tujuan,
@@ -47,10 +45,8 @@ const PostListItem = ({
     <StyledPostListItem>
 
       <PostListTitle>{title}</PostListTitle>
-
       
-      <MyIcon src={socialImage} />
-
+      <PostImageWrapper image={socialImage} alt="" />
 
       <a href={tujuan} target="_blank" rel="noreferrer" data-umami-event={`survey-${title.replace(/ +/g, '-')}`}>
         <PostListExcerpt
@@ -63,6 +59,9 @@ const PostListItem = ({
   );
 };
 
+const PostImageWrapper = styled(GatsbyImage)`
+  display: block;
+`;
 
 const StyledPostList = styled.ul`
   padding: 0;
@@ -122,6 +121,8 @@ const PostListTitle = styled.h2`
   text-transform: capitalize;
   font-size: var(--size-600);
   font-weight: 700;
+  justify-content:center; // centers in the flex direction and the default flex-direction is row
+  align-items:center; // centers perpendicular to the flex direction
 
   & a {
     text-decoration: none;

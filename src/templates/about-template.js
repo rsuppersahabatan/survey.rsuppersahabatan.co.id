@@ -8,6 +8,8 @@ const AboutTemplate = ({ data }) => {
   const { html, frontmatter } = data.markdownRemark;
   const profileImage = getImage(frontmatter.profile_image);
 
+  console.log(frontmatter.profile_image)
+
   return (
     <Layout title={frontmatter.title}>
       <AboutWrapper>

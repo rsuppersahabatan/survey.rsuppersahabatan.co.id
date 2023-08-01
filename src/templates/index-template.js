@@ -101,7 +101,9 @@ export const pageQuery = graphql`
           title
           tujuan
           social_image {
-            absolutePath
+            childImageSharp {
+              gatsbyImageData(placeholder: BLURRED, formats: PNG, height: 400)
+            }
           }
         }
       }
