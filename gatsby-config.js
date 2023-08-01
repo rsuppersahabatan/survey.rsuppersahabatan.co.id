@@ -158,7 +158,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: `Pendaftaran Online RSUP Persahabatan`,
+            title: `Survey Online RSUP Persahabatan`,
           },
         ],
       },

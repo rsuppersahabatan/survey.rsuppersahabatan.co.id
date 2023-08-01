@@ -6,5 +6,5 @@ template: "about-template"
 
 # Hi, folks.
 
-Ini adalah halaman Menu Pendaftaran Online yang ada di RSUP Persahabatan. Silahkan manfaatkan dan gunakan dengan maksimal.
-Landing Pendaftaran online ini dikembangkan oleh [Muchamad Desta Fadilah](https://topidesta.my.id).
+Ini adalah halaman Menu Survey Online yang ada di RSUP Persahabatan. Silahkan manfaatkan dan gunakan dengan maksimal.
+Landing Survey online ini dikembangkan oleh [Muchamad Desta Fadilah](https://topidesta.my.id).
