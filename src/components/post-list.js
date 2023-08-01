@@ -1,19 +1,18 @@
 import React from "react";
 import styled from "styled-components";
-// import { Link } from "gatsby";
-// import Tags from "./tags";
 
 const PostList = ({ posts }) => {
   const PostList = posts.map(({ frontmatter, fields, excerpt, timeToRead }) => {
-    const { title, tags, date, description, tujuan } = frontmatter;
+    const { title, date, description, tujuan, social_image } = frontmatter;
     const { slug } = fields;
+    const socialImage = social_image ? frontmatter.social_image.absolutePath : "";
 
     return (
       <PostListItem
         key={slug}
-        tags={tags}
         title={title}
         tujuan={tujuan}
+        socialImage={socialImage}
         date={date}
         slug={slug}
         timeToRead={timeToRead}
@@ -28,9 +27,15 @@ const PostList = ({ posts }) => {
 
 export default PostList;
 
+const MyIcon = styled.img`
+  width: 100%;
+`;
+
+
 const PostListItem = ({
   title,
   tujuan,
+  socialImage,
   // date,
   // timeToRead,
   // tags,
@@ -40,9 +45,12 @@ const PostListItem = ({
 }) => {
   return (
     <StyledPostListItem>
-      {/* <Tags tags={tags} /> */}
 
       <PostListTitle>{title}</PostListTitle>
+
+      
+      <MyIcon src={socialImage} />
+
 
       <a href={tujuan} target="_blank" rel="noreferrer" data-umami-event={`survey-${title.replace(/ +/g, '-')}`}>
         <PostListExcerpt
@@ -51,15 +59,10 @@ const PostListItem = ({
           }}
         />
       </a>
-
-      {/* <PostListMeta>
-        <span>{date}</span>
-
-        <span>{timeToRead} mins</span>
-      </PostListMeta> */}
     </StyledPostListItem>
   );
 };
+
 
 const StyledPostList = styled.ul`
   padding: 0;

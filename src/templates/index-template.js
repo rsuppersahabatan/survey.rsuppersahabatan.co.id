@@ -100,6 +100,9 @@ export const pageQuery = graphql`
           description
           title
           tujuan
+          social_image {
+            absolutePath
+          }
         }
       }
     }
