@@ -2,11 +2,10 @@
 
 # RSUP Persahabatan Landing Survey Online
 
-Landing Pendaftaran RSUP Persahabatan
+Landing Survey Online RSUP Persahabatan
 
-![demo site screenshot](./screenshoot.png)
+![screencapture-survey-rsuppersahabatan-co-id-2023-08-08-10_40_39](https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id/assets/5575882/ff149769-b372-442d-9f81-e77f131b4c16)
 
-![demo site screenshot malah hari](./screenshoot2.png)
 
 [View Live Demo](https://survey.rsuppersahabatan.co.id/)
 
