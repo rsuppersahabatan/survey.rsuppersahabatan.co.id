@@ -1,8 +1,8 @@
 ---
 template: "index-template"
-title: "Survey Online RSUP Persahabatan"
+title: "Survey Online RS Persahabatan"
 ---
 
-# RSUP PERSAHABATAN
+# RS PERSAHABATAN
 
 Survey Online Rumah Sakit Umum Pusat Persahabatan.

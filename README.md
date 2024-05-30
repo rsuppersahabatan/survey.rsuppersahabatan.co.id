@@ -1,19 +1,19 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6d15ac66-cf7f-4daa-a7a7-7277ada0e870/deploy-status)](https://app.netlify.com/sites/surveyrsp/deploys)
 
-# RSUP Persahabatan Landing Survey Online
+# RS Persahabatan Landing Survey Online
 
-Landing Survey Online RSUP Persahabatan
+Landing Survey Online RS Persahabatan
 
-![screencapture-survey-rsuppersahabatan-co-id-2023-08-08-10_40_39](https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id/assets/5575882/ff149769-b372-442d-9f81-e77f131b4c16)
+![screencapture-survey-rspersahabatan-co-id-2023-08-08-10_40_39](https://github.com/rspersahabatan/survey.rspersahabatan.co.id/assets/5575882/ff149769-b372-442d-9f81-e77f131b4c16)
 
 
-[View Live Demo](https://survey.rsuppersahabatan.co.id/)
+[View Live Demo](https://survey.rspersahabatan.co.id/)
 
 ## Local Install
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id
+git clone https://github.com/rspersahabatan/survey.rspersahabatan.co.id
 
 # 2. Navigate into repository
 cd landingpendaftaran
@@ -37,14 +37,14 @@ Within gatsby-config.js, you can specify information about your site (metadata) 
 
 module.exports = {
   siteMetadata: {
-    title: `Pendaftaran RSUP Persahabatan`,
+    title: `Pendaftaran RS Persahabatan`,
     author: {
       name: `Topidesta`,
       summary: `Fullstack Developer in-mind.`,
     },
     tujuan: ``,
     description: `A Minimal & Beautiful Gatsby Personal Blog Starter With Nice Glassmorphism Ui.`,
-    siteUrl: `https://pendaftaran.rsuppersahabatan.co.id`,
+    siteUrl: `https://pendaftaran.rspersahabatan.co.id`,
     social: {
       twitter: `rs_persahabatan`,
     },

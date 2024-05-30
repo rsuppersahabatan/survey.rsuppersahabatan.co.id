@@ -1,7 +1,7 @@
 {
   "name": "gatsby-landing-survey-online",
   "private": true,
-  "description": "Survey Online RSUP Persahabatan",
+  "description": "Survey Online RS Persahabatan",
   "version": "0.1.2",
   "author": "Topidesta",
   "dependencies": {
@@ -41,17 +41,17 @@
   "devDependencies": {
     "prettier": "2.7.1"
   },
-  "homepage": "https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id#readme",
+  "homepage": "https://github.com/rspersahabatan/survey.rspersahabatan.co.id#readme",
   "keywords": [
     "gatsby",
     "netlify cms",
-    "rsup persahabatan",
+    "rs persahabatan",
     "survey survei"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rsuppersahabatan/survey.rsuppersahabatan.co.id.git"
+    "url": "git+https://github.com/rspersahabatan/survey.rspersahabatan.co.id.git"
   },
   "scripts": {
     "build": "CI='' gatsby build",
