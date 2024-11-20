@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Survey Online RSUP Persahabatan`,
+    title: `Survey Online RS Persahabatan`,
     author: {
       name: `Topidesta`,
-      summary: `Software Engineer RSUP Persahabatan`,
+      summary: `Software Engineer RS Persahabatan`,
     },
     openGraphImage: `open-graph-image.png`,
     tujuan: ``,
-    description: `Landingpage Survey RSUP Persahabatn.`,
-    siteUrl: `https://survey.rsuppersahabatan.co.id/`,
+    description: `Landingpage Survey RS Persahabatn.`,
+    siteUrl: `https://survey.rspersahabatan.co.id/`,
     social: {
       twitter: `rs_persahabatan`,
       youtube: `rs_persahabatan`,
@@ -29,7 +29,7 @@ module.exports = {
       },
       {
         name: "admin",
-        url: "https://survey.rsuppersahabatan.co.id/admin/",
+        url: "https://survey.rspersahabatan.co.id/admin/",
       },
     ],
   },
@@ -158,7 +158,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: `Survey Online RSUP Persahabatan`,
+            title: `Survey Online RS Persahabatan`,
           },
         ],
       },
